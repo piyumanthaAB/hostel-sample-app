@@ -4,7 +4,7 @@ import Navbar from './Components/NavBar/NavBar';
 import { BrowserRouter as Router,Route,Switch } from 'react-router-dom';
 import content from './Data/Content';
 import Footer from './Components/Footer/Footer';
-import ScrollToTop from './Hooks/ScrollToTop';
+import ScrollToTop from './Hooks/useScrollToTop';
 import Aos from "aos";
 import { useEffect } from "react";
 import "aos/dist/aos.css";
@@ -18,7 +18,7 @@ function App() {
       <Router>
       <div className="App">
       {/* <GlobalStyle/> */}
-      <Navbar/>
+        <Navbar scrollToTop={ScrollToTop }/>
       <ScrollToTop/>
       {/* <ScrollToTop/>  */}
           <Switch>

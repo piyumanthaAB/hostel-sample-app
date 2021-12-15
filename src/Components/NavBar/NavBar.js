@@ -34,7 +34,7 @@ const Navbar = (scrollToTop) => {
         letter-spacing:2px;
         font-weight:600px;
     `
-    const Li=styled.li`
+    const Li=styled(Link)`
     &{
         display: inline-block;
         padding: 0 10px;
@@ -45,6 +45,7 @@ const Navbar = (scrollToTop) => {
         cursor: pointer;
         position: relative;
         font-weight:550;
+        text-decoration: none;
     }
     &:hover .Ho{
         width: 50%;
@@ -80,12 +81,19 @@ const Navbar = (scrollToTop) => {
                 </Links>
                 
                <Links>
-                    <Ul>
+                    {/* <Ul>
                         <Li className="li" onClick={scrollToTop}><Link to ="/">Home<Span className="Ho"></Span></Link></Li>
                         <Li className="li" onClick={scrollToTop}><Link to ="/facilities">Facilities<Span className="Ho"></Span></Link></Li>
                         <Li className="li" onClick={scrollToTop}><Link to ="/rules">Rules & Regulations<Span className="Ho"></Span></Link></Li>
                         <Li className="li" onClick={scrollToTop}><Link to ="/">Maintaince<Span className="Ho"></Span></Link></Li>
                         <Li className="li" onClick={scrollToTop}><Link to ="/">Contact Us<Span className="Ho"></Span></Link></Li>
+                    </Ul> */}
+                    <Ul>
+                        <Li to ="/" className="li"  >Home<Span className="Ho"></Span></Li>
+                        <Li to ="/" className="li" >Facilities<Span className="Ho"></Span></Li>
+                        <Li to ="/rules" className="li" >Rules & Regulations<Span className="Ho"></Span></Li>
+                        <Li to ="/" className="li" >Maintaince<Span className="Ho"></Span></Li>
+                        <Li to ="/" className="li" >Contact Us<Span className="Ho"></Span></Li>
                     </Ul>
                 </Links>
             </Nav>

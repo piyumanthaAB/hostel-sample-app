@@ -42,7 +42,7 @@ const Footer = () => {
             
           </FooterServices>
           <FooterAccount>
-            ABOUT US
+            ABOUT OS
             
           </FooterAccount>
           <FooterEmail>

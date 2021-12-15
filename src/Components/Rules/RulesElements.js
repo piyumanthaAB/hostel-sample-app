@@ -7,7 +7,6 @@ export const StructureItems = styled.div`
   padding-top:3%;
   background:#E5DFFF;
   margin-bottom: 2%;
-  jusitfy-content:center;
 `;
 export const StructureRule = styled.div`
         letter-spacing:8px;

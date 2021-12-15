@@ -31,24 +31,20 @@ const SubWardens = () => {
         padding: 0 5px;
         width: 100%;
         margin-bottom : 5%;
-        
-        
     `
     const Slider=styled.div`
         height: 600px;
         width: 400px;
         z-index: 2;
-        border-radius: 5px;
+        border-radius: 10px;
         position: relative;
         padding: 20px;
         background-color: #E5DFFF;
-        /* background-color:red; */
-
     `
     const Img = styled.img`
         width: 400px;
         height: 350px;
-        border-radius: 5px;
+        border-radius: 25px;
     `
     const H1 = styled.h1`
         text-align: center;

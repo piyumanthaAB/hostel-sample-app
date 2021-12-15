@@ -64,7 +64,7 @@ const Facilities = () => {
     const[ScrollToTop,setScrollToTop] = useState(false);
     useEffect(() => {
         window.addEventListener("scroll",()=>{
-            if(window.pageYOffset > 500){
+            if(window.pageYOffset >= 400){
                 setScrollToTop(true);
             }
             else{
@@ -92,7 +92,7 @@ const Facilities = () => {
                 </SubSec>
                 <SubSec>
                     <H2>{ScrollToTop && <CountUp end={15} duration={1}/> }</H2>
-                    <P>Sub-Wardens</P>
+                    <P>Sub-Wordens</P>
                 </SubSec>
                 </MainSubSec>
             </Sec>

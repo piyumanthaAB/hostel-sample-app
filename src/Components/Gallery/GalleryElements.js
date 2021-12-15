@@ -27,7 +27,7 @@ export const GallaryRows =styled.div`
    justify-content:center;
    background:#E5DFFF;
    margin:0 55px;
-   padding: 2% 0;
+   padding: 5% 0;
    border-radius:10px;
    box-shadow: 0px 10px 20px 2px #0000005d;
    margin-top: 3%;
@@ -43,9 +43,9 @@ export const GallatyImgContainer =styled.div`
 export const GallaryImg =styled.img`
     &{  width: 350px;
         height: 350px;
-        /* //padding: 10px; */
+        //padding: 10px;
         margin: 10px 40px;
-        border-radius:10px;
+        border-radius:40px;
         transition: 0.3s;
     }
     &:hover{

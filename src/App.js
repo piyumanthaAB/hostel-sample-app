@@ -8,7 +8,6 @@ import ScrollToTop from './Hooks/ScrollToTop';
 import Aos from "aos";
 import { useEffect } from "react";
 import "aos/dist/aos.css";
-import Rules from './Pages/Rules';
 function App() {
   useEffect(() => {
     Aos.init({duration:1000}); 
@@ -25,11 +24,6 @@ function App() {
             <Route exact path="/">
               <div>
                 <Home Covertext={content[0]}/>
-              </div>
-            </Route>
-            <Route exact path="/rules">
-              <div>
-                <h1>adda</h1>
               </div>
             </Route>
             

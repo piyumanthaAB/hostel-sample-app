@@ -92,7 +92,7 @@ const Facilities = () => {
                 </SubSec>
                 <SubSec>
                     <H2>{ScrollToTop && <CountUp end={15} duration={1}/> }</H2>
-                    <P>Sub-Wordens</P>
+                    <P>Sub-Wardens</P>
                 </SubSec>
                 </MainSubSec>
             </Sec>

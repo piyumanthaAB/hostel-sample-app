@@ -22,7 +22,7 @@ function App() {
       <ScrollToTop/>
       {/* <ScrollToTop/>  */}
           <Switch>
-            <Route exact path="/Home">
+            <Route exact path="/">
               <div>
                 <Home Covertext={content[0]}/>
               </div>

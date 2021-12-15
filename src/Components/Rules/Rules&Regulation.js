@@ -14,7 +14,7 @@ const Head = styled.div`
         font-weight: bold;
         position: relative;
         left: 0;
-        margin-bottom: 40px;
+        ${'' /* margin-bottom: 40px; */}
         border-bottom: 3px solid #49483E;
         display: inline;
 `

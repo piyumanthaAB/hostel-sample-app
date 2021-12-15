@@ -27,7 +27,7 @@ function App() {
                 <Home Covertext={content[0]}/>
               </div>
             </Route>
-            <Route exact path="/RulesandRegulation">
+            <Route exact path="/rules">
               <div>
                 <RulesandRegulation Covertext={content[1]}/>
               </div>

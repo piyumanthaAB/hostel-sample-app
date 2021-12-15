@@ -32,6 +32,11 @@ function App() {
                 <RulesandRegulation Covertext={content[1]}/>
               </div>
             </Route>
+            <Route exact path="/facilities">
+              <div>
+              <RulesandRegulation Covertext={content[2]}/>
+              </div>
+            </Route>
           </Switch>
           <Footer />
           {/* <Footer/> */}

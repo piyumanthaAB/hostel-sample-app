@@ -6,6 +6,10 @@ const content = [
     {
         header : "Rules & Regulation",
         desc : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolores quam libero consectetur eum incidunt esse, tempora fugit architecto "
+    },
+    {
+        header : "Facilities",
+        desc : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolores quam libero consectetur eum incidunt esse, tempora fugit architecto "
     }
 ];
 export default content;

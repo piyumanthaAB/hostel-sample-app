@@ -78,7 +78,7 @@ const Facilities = () => {
                 <H1>Hostel Facilities</H1>
             </Sec>
             <Sec>
-                <P1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolores quam libero consectetur eum incidunt esse, tempora fugit architecto obcaecati hic temporibus voluptates blanditiis ex. Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, vitae suscipit. Provident, natus similique. Explicabo nam quia hic doloremque incidunt atque ab suscipit aspernatur fuga dicta modi sequi placeat, sunt facere consequatur corporis, harum sed esse odio ipsum? Ab nesciunt ad, similique explicabo voluptate alias.</P1>
+                <P1>The University hostels provide enormous facilities aiming at creating a good learning environment for residential students. Internal hostels are equipped with high standard bed rooms, meeting area, common area, playing area (carom) and canteen. For each room (depending on number of students), two studying tables/chairs and towel racks are provided.  In addition, good number of dustbins are placed for proper waste disposal. </P1>
             </Sec>
             <Sec>
                 <MainSubSec>

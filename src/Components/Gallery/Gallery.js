@@ -10,12 +10,12 @@ import {
 
 } from "./GalleryElements";
 
-import img1 from "./../../images/Gallaryimg1.jpg";
-import img2 from "./../../images/Gallaryimg2.jpg";
-import img3 from "./../../images/Gallaryimg3.jpg";
-import img5 from "./../../images/Gallaryimg5.jpg";
-import img6 from "./../../images/Gallaryimg6.jpg";
-import img7 from "./../../images/Gallaryimg7.jpg";
+import img1 from "./../../images/image015.png";
+import img2 from "./../../images/image008.jpg";
+import img3 from "./../../images/image006.jpg";
+import img5 from "./../../images/image010.jpg";
+import img6 from "./../../images/image012.jpg";
+import img7 from "./../../images/image014.jpg";
 
 const Gallary = () => {
   return (

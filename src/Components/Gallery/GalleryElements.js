@@ -17,7 +17,8 @@ export const GallaryHeader =styled.div`
         font-weight: bold;
         position: relative;
         left: 0;
-        margin-bottom: 40px;
+        font-family: "Roboto", sans-serif;
+        /* margin-bottom: 40px; */
         border-bottom: 3px solid #49483E;
         display: inline;
 `
@@ -25,7 +26,8 @@ export const GallaryRows =styled.div`
    display:flex;
    flex-wrap:wrap;
    justify-content:center;
-   background:#E5DFFF;
+   /* background:#E5DFFF; */
+   background:#f7f7f7;
    margin:0 55px;
    padding: 5% 0;
    border-radius:10px;
@@ -45,9 +47,21 @@ export const GallaryImg =styled.img`
         height: 350px;
         //padding: 10px;
         margin: 10px 40px;
-        border-radius:40px;
+        border-radius:10px;
         transition: 0.3s;
+        position: relative;
     }
+    &::before{
+            position: absolute;
+            height: 100%;
+            z-index:2;
+            content: '';
+            top: 0%;
+            right: 0%;
+            bottom: 0%;
+            left: 0%;
+            background-color: #339BFF;
+        }
     &:hover{
         transform: translateY(-10px);
         cursor: pointer;

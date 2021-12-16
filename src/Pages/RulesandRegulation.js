@@ -6,7 +6,6 @@ const RulesandRegulation = (props) => {
             <Cover Cover1text= {props.Covertext} />
             <RulesRegulation/>
         </div>
-        
      );
 }
  

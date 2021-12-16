@@ -18,7 +18,7 @@ import {
   Sec1,
   Sec2,
   Icon,
-  HR,
+  // HR,
   P
 } from "./FooterElement";
 
@@ -42,7 +42,7 @@ const Footer = () => {
             
           </FooterServices>
           <FooterAccount>
-            ABOUT OS
+            ABOUT US
             
           </FooterAccount>
           <FooterEmail>
@@ -69,8 +69,8 @@ const Footer = () => {
         </Icon>
       </Sec1>
       <Sec2>
-        <HR/>
-        <P>© 2021 Department of Computer Science. | All Rights Reserved.</P>
+        {/* <HR/> */}
+        <P>© 2021 Department of Computer Science. &nbsp; | &nbsp; All Rights Reserved. </P>
       </Sec2>
     </FooterContainer>
   );

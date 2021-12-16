@@ -3,7 +3,8 @@ import styled from "styled-components";
 
 export const NewsContainer = styled.div`
   width: 100%;
-  background:#E5DFFF;
+  ${'' /* background:#E5DFFF; */}
+  background:#f7f7f7;
   padding: 3% 0;
   margin: 2% 0;
 `;
@@ -16,7 +17,8 @@ export const NewsHead = styled.div`
         font-weight: bold;
         position: relative;
         left: 0;
-        margin-bottom: 40px;
+        ${'' /* margin-bottom: 40px; */}
+        font-family: "Roboto", sans-serif;
         border-bottom: 3px solid #49483E;
         display: inline;
 `;

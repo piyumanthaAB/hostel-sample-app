@@ -1,7 +1,8 @@
 import styled from "styled-components";
 import img from "./../../images/unilogo.png";
 import { Link } from "react-router-dom";
-const Navbar = (scrollToTop) => {
+// import { useState,useEffect } from "react";
+const Navbar = () => {
     const Navbar=styled.div`
         display: block;
         margin: 0;
@@ -34,7 +35,7 @@ const Navbar = (scrollToTop) => {
         letter-spacing:2px;
         font-weight:600px;
     `
-    const Li=styled(Link)`
+    const Li=styled.li`
     &{
         display: inline-block;
         padding: 0 10px;
@@ -44,8 +45,9 @@ const Navbar = (scrollToTop) => {
         font-family: 'PT Sans', sans-serif;
         cursor: pointer;
         position: relative;
-        font-weight:550;
-        text-decoration: none;
+        /* font-family: "Roboto", sans-serif; */
+        /* font-weight:100; */
+        letter-spacing: .1rem;
     }
     &:hover .Ho{
         width: 50%;
@@ -72,6 +74,14 @@ const Navbar = (scrollToTop) => {
     }
     `
     
+    const scrollToTop = ()=>{
+        if(window.pageYOffset > 200){
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+        }
+    }
     return ( 
         <Navbar>
             <Nav>
@@ -81,19 +91,12 @@ const Navbar = (scrollToTop) => {
                 </Links>
                 
                <Links>
-                    {/* <Ul>
-                        <Li className="li" onClick={scrollToTop}><Link to ="/">Home<Span className="Ho"></Span></Link></Li>
-                        <Li className="li" onClick={scrollToTop}><Link to ="/facilities">Facilities<Span className="Ho"></Span></Link></Li>
-                        <Li className="li" onClick={scrollToTop}><Link to ="/rules">Rules & Regulations<Span className="Ho"></Span></Link></Li>
-                        <Li className="li" onClick={scrollToTop}><Link to ="/">Maintaince<Span className="Ho"></Span></Link></Li>
-                        <Li className="li" onClick={scrollToTop}><Link to ="/">Contact Us<Span className="Ho"></Span></Link></Li>
-                    </Ul> */}
                     <Ul>
-                        <Li to ="/" className="li"  >Home<Span className="Ho"></Span></Li>
-                        <Li to ="/" className="li" >Facilities<Span className="Ho"></Span></Li>
-                        <Li to ="/rules" className="li" >Rules & Regulations<Span className="Ho"></Span></Li>
-                        <Li to ="/" className="li" >Maintaince<Span className="Ho"></Span></Li>
-                        <Li to ="/" className="li" >Contact Us<Span className="Ho"></Span></Li>
+                        <Li className="li" onClick={scrollToTop}><Link to ="/">Home<Span className="Ho"></Span></Link></Li>
+                        <Li className="li" onClick={scrollToTop}><Link >Facilities<Span className="Ho"></Span></Link></Li>
+                        <Li className="li" onClick={scrollToTop}><Link to ="/RulesandRegulation">Rules & Regulations<Span className="Ho"></Span></Link></Li>
+                        <Li className="li" onClick={scrollToTop}><Link >Maintenance<Span className="Ho"></Span></Link></Li>
+                        <Li className="li" onClick={scrollToTop}><Link >Contact Us<Span className="Ho"></Span></Link></Li>
                     </Ul>
                 </Links>
             </Nav>

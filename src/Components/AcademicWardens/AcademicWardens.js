@@ -8,7 +8,7 @@ const AcademicWardens = () => {
         display: block;
     `
     const Sec = styled.div`
-        padding: 0 5px;
+        ${'' /* padding: 0 5px; */}
         width: 100%;
         margin-bottom : 5%;
         display: flex;
@@ -42,7 +42,7 @@ const AcademicWardens = () => {
         display: inline;
         letter-spacing: 0.2rem;
     `
-    const H3 = styled.h3`
+    const H3 = styled.h4`
         ${'' /* color: #000; */}
         color: #333;
         margin: 10px;

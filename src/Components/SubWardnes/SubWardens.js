@@ -67,10 +67,10 @@ const SubWardens = () => {
         text-align: left;
     `
     const P = styled.p`
-        font-size: 15px;
+        font-size: 13px;
         color: #000;
         text-align: left;
-        font-weight: 700;
+        font-weight: 400;
         margin-left: 10px;
     `
     const Sec1 = styled.div`
